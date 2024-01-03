@@ -25,3 +25,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+
+$git add archivename
+$git commit -m "dsa"
+$git push
