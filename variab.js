@@ -78,3 +78,19 @@ console.log()
 for(let i=0;i<colores.length;i++){
 	console.log("Elemento: "+colres[i]+", indice: "+i);
 }
+
+colores.push("amarillo")
+console.log(colores);
+
+colores.reverse();
+console.log(colores);
+colores.push("DSADSA");
+colores.sort();
+colores.push(453);
+colores.push(true);
+colores.sort();
+console.log(colores);
+colores.push([5,5,5]);
+var elem=colores.pop();
+console.log(elemento);
+console.log(colores);
