@@ -35,16 +35,16 @@ while(contador>=0){
 
 }
 
-let suma=
-let resta=
-let multi=
-let divi=
-let modulo=
+let suma=4+4
+let resta=6+6
+let multi=6+6
+let divi=5/8
+let modulo=8%2
 
-let mayorQue=
-let mayorIgualQue=
-let igualQue=
-let diferenteQue= 
+let mayorQue=8>1
+let mayorIgualQue=6>=1
+let igualQue=4<41
+let diferenteQue=45!=4 
 
 let and=true&&true
 let or=false||true
