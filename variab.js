@@ -95,3 +95,5 @@ var elem=colores.pop();
 console.log(elemento);
 console.log(colores);
 colores.find('sapito');
+colores.push([2,4,6]);
+colores,sort();
