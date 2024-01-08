@@ -101,16 +101,4 @@ colores,sort();
 
 
 
-console.log(colores)
-
-
-function saludar(nombre){
-    return "Hola, "+nombre+"!";
-}
-
-function suma(a,b){
-    let s=a+b;
-    return "La suma de "+a+" y "+b+" es "+s;
-}
-
 
