@@ -1,45 +1,97 @@
 body{
-    background-color: gray;
+    background-color: rgb(98, 171, 255);
 }
 
 h1{
-    color: rgb(219, 72, 72);
+    color: blue;
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: rgb(41, 209, 255);
     
 }
 
-p{
+h2{
+    font-family: sans-serif;
     font-size: large;
     text-align: center;
     font-weight: bold;
+    font-style: italic;
     color: aqua;
 }
 
-img{
-    max-width: 25%;
-    max-height: 25%;
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 50%;
 }
 
 ol li{
     font-size: large;
-    color: blueviolet;
+    color: rgb(80, 43, 226);
 }
 
 ul li{
     color: rgb(45, 52, 155);
     font-weight: bold;
-    background-color: yellow;
-    text-align: center;
+    background-color: none;
+    text-align: none;
 }
 
 .enviar{
     border-radius: 5px;
-    background-color: rgb(0, 0, 225);
+    font-size: 17px;
+    background-color: aqua;
+    text-align: center;
+	font-family: sans-serif;
+    cursor: pointer;
+}
+
+.in{
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    left: 70px;
 }
 
 .etiqueta{
-    font-size: 15px;
+    font-size: 30px;
     background-color: blue;
+}
+
+.formu{
+    position: relative;
+    left: 20px;
+}
+
+cointainer
+
+.container{
+    
+    
+}
+
+foot
+
+.letf{
+
+	font-family: sans-serif;
+	color: black;
+	font-size: 15px;
+}
+
+.foot1{
+	position: relative;
+	top: 0px;
+	left: 20px;
+}
+
+.foot2{
+	position: relative;
+	top: 20px;
+	left: 00px;
 }
