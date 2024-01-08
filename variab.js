@@ -95,5 +95,22 @@ var elem=colores.pop();
 console.log(elemento);
 console.log(colores);
 colores.find('sapito');
+<<<<<<< HEAD
 colores.push([2,4,6]);
 colores,sort();
+=======
+
+
+console.log(colores)
+
+
+function saludar(nombre){
+    return "Hola, "+nombre+"!";
+}
+
+function suma(a,b){
+    let s=a+b;
+    return "La suma de "+a+" y "+b+" es "+s;
+}
+
+>>>>>>> 3b60f8c (suma)
