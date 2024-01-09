@@ -44,8 +44,8 @@ ul li{
 
 .enviar{
     border-radius: 5px;
-    font-size: 17px;
-    background-color: rgb(9, 255, 0);
+    font-size: 14px;
+    background-color: aqua;
     text-align: center;
 	font-family: sans-serif;
     cursor: pointer;
