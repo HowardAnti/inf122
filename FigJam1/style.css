@@ -46,6 +46,7 @@ button{
     font-family: Nunito Sans;
     font-weight: 550;
     line-height: normal;
+    flex-shrink: 0;
 
 }
 
