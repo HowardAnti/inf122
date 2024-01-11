@@ -23,12 +23,13 @@ body {
     background-color: var(--white);
 }
 
+
 .brochure {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 100%;
     justify-items: center;
-    background-color: var(--white);
+    background-color: yellow;
 }
 
 .more-info {
@@ -66,12 +67,14 @@ body {
     grid-template-columns: repeat(2, 1fr);
     margin: 50px 260px 50px 260px;
     justify-content: center;
+    background-color: yellowgreen;
 }
 
 .card-container {
     display: flex;
     align-items: center;
     margin: 16px 0 16px 0;
+    background-color: red;
 }
 
 .card-icon {

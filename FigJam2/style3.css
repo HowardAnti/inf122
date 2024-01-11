@@ -10,110 +10,71 @@
     --lg: 60px;
 }
 
-body {
-    font-family: 'Nunito';
+body{
+    font-family: Nunito;
     margin: 0;
 }
 
 .main{
     width: 100%;
     height: 100vh;
-    display: grid;
     place-items: center;
     background-color: var(--lightblack);
 }
 
-.titles{
+.title{
+    font-size: var(--lg);
+    color: var(--white);
+    text-align: center;
+}
+
+.subtitle{
+    font-size: var(--md);
+    color: var(--ocean);
+    text-align: center;
+}
+
+
+.menu{
+    display: flex;
+    width: 100%;
+    background-color: #6F2CFF;
+}
+
+.brochure{
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 1fr 0.5fr;
     width: 100%;
     justify-items: center;
-    background-color: var(--lightblack);
+    background-color: yellow;
+    margin: 0;
 }
 
-.title {
-    color: var(--white);
-    text-align: center;
-    font-size: var(--lg);
-}
-
-.subtitle {
-    color: var(--white);
-    text-align: center;
-    font-size: var(--md);
-    margin: 5px 0 5px 0;
-}
-
-.medium{
+.more-info{
+    height: 30vh;
     display: grid;
     width: 100%;
-    background-color: var(--lightblack);
+    background-color: white;
 }
 
-
-.icons-container {
+.icon-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 50px 260px 50px 260px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 120px 0px 120px;
     justify-content: center;
+    background-color: green;
 }
 
 .card-container {
     display: flex;
     align-items: center;
+    margin: 16px 16px 16px 16px;
     background-color: var(--darkblue);
-    border: none;
     border-radius: 5px;
-    margin: 16px 25px 16px 25px;
 }
 
-.card-icon {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 28px;
-}
-
-.card-icon figure img {
-    width: 50px;
-    height: 50px;
-}
-
-.icon-text h2 {
-    font-size: var(--sm);
-    margin: 0;
-}
-
-.icon-text p {
-    font-size: var(--sm);
-    margin: 0;
-}
-
-.button-image{
-    display: flex;
-    align-content: space-around;
-}
-
-.logo{
-    width: 25px;
-    height: 25px;
-    border: none;
-}
-
-@media (max-width: 720px) {
-    .icons-container {
-        grid-template-columns: repeat(1, 1fr);
-        margin: 50px 10px 50px 10px;
-    }
-
-    .subtitle {
-        color: var(--black);
-        text-align: center;
-        font-size: 0;
-        margin: 5px 0 5px 0;
-    }
+.paragraph{
+    font-size: 20px;
+    color: var(--ocean);
+    text-align: center;
 }
