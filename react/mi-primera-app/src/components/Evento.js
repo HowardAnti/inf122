@@ -4,7 +4,7 @@ import '../styles/Evento.css'
 function Evento(){
     return(
         <div className="card-container">
-            <img className="" src={require("../images/evento1.webp")} alt="Foto del evento"/>
+            <img className="card-image" src={require("../images/evento1.jpeg")} alt="Foto del evento"/>
             <div className="card-content">
                 <h2 className="card-title">Py Pizza 03 - PyPuzzle</h2>
                 <p className="card-date">09 de Diciembre de 2023 - 13:30 GMT-4</p>
@@ -14,11 +14,10 @@ function Evento(){
                 ¿Cuánto conoces de Python?
                 Aprende a trabajar en equipo resolviendo increíbles acertijo
                 ¡Anímate a ser parte de esta actividad!</p>
-                <div className="Icons">
-                    
-                    <img className="" src={require("../images/github.png")} alt="Foto del evento"/>
-                    <img className="" src={require("../images/facebook.png")} alt="Foto del evento"/>
-                    <img className="" src={require("../images/youtube.png")} alt="Foto del evento"/>
+                <div className="icons">
+                    <a href="https://github.com/"><img className="" src={require("../images/github_red.png")} alt="Github"/></a>
+                    <a href="https://www.facebook.com/"><img className="" src={require("../images/facebook_red.png")} alt="Facebook"/></a>
+                    <a href="https://es.linkedin.com/"><img className="" src={require("../images/linkedin_red.png")} alt="Linkedin"/></a>
                 </div>
             </div>
         </div>

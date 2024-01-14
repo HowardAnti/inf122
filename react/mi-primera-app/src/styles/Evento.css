@@ -9,45 +9,42 @@
 
 .card-container{
     width: 1170px;
-    height: 368px;
-    margin: none;
+    height: auto;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: var(--white);
     box-shadow: 0 3px 123px 1px var(--shadow);
+    margin: 20px auto 20px auto;
 }
 
 .card-image{
-    height: 100%;
-    width: auto;
+    width: 300px;
+    height: 300px;
 }
 
 .card-content{
-    text-align: start;
     padding: 40px;
     font-weight: 400;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items:flex-start;
 }
 
-.Icons{
+.icons{
     display: flex;
-    margin: 20px 20px 20px 20px;
-}
-
-.Icons figure{
-    width: 49px;
-    height: 49px;
-    border-radius: 50%;
+    flex-direction: row;
+    background-color: var(--white);
     align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
 }
 
-.Icons img{
+.icons img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin: 20px 5px 20px 5px;
-
+    margin-right: 4px;
 }
 
 .card-title{
