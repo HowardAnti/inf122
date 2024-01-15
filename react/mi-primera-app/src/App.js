@@ -1,6 +1,7 @@
 import './App.css';
 import Evento from './components/Evento.js';
 import EventoB from './components/EventoB.js';
+import EventoC from './components/EventoC.js';
 
 function App() {
   return (
@@ -16,6 +17,13 @@ ha impartido conferencias y talleres en diversas PyCon en múltiples países.
 En esta charla Valery nos presentara: 3 Pitfalls de la Ingeniería de datos (donde no meter la pata)
 Resumen: Cuando implementamos flujos de datos es muy común olvidar algunos detalles de diseño sumamente importantes para el buen funcionamiento de los procesos. En esta charla hablaremos de 3 de los más importantes y cuales son las implicaciones de implementarlos o no implementarlos."
 github_link="https://github.com/HowardAnti/inf122"  facebook_link="" discord_link="" linkedin_link="https://www.linkedin.com/company/profiles"/>
+        <EventoC 
+        title="MeetUp 11 - 3 Pitfalls de la Ingeniería de datos (donde no meter la pata)" 
+        image="evento2" 
+        dateLiteral="25 de Noviembre de 2023" 
+        placeLiteral="Online" 
+        description={["¡Hola Pythonista!","Acompáñanos al MeetUp mensual de la comunidad Python La Paz","En este MeetUp tendremos la participación de Valery Calderon Briz"]}/>
+
     </div>
   );
 }
