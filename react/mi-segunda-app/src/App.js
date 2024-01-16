@@ -4,7 +4,8 @@ import Contator from './components/Contator';
 import Button from './components/Buton';
 
 function App() {
-  const [nroClicks, setNumClicks] = useState(0);
+  const [nroClicks, setNumClicks] = useState(0.1);
+  const [show, setShow] = useState(true);
   const mastres = () => {
     setNumClicks(nroClicks + 3);
   }
@@ -20,12 +21,17 @@ function App() {
   const restart = () => {
     setNumClicks(0);
   }
+
+  const mostrar = () => {
+    setShow(!show);
+  }
+
   return (
 
     
     <div className="App">
         <div className="principal-container">
-          <Contator nroClicks={nroClicks}/>
+          <Contator nroClicks={nroClicks} mostrar={show}/>
 
         </div>
         
@@ -37,7 +43,7 @@ function App() {
           </div>
           
           <Button text="restart" buttonClick={false} functionClick={restart}/>
-       
+          <Button text="Mostrar/Ocultar" buttonClick={false} functionClick={mostrar}/>
     </div>
   );
 }
