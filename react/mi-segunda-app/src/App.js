@@ -26,8 +26,9 @@ function App() {
     <div className="App">
         <div className="principal-container">
           <Contator nroClicks={nroClicks}/>
+
         </div>
-        <div className="buttons-container">
+        
           <div className='buttons-k'>
           <Button text="-3" buttonClick={true} functionClick={menostres}/>
           <Button text="+3" buttonClick={true} functionClick={mastres}/>
@@ -36,7 +37,7 @@ function App() {
           </div>
           
           <Button text="restart" buttonClick={false} functionClick={restart}/>
-        </div>
+       
     </div>
   );
 }

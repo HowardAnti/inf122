@@ -10,8 +10,10 @@ button{
     font-family: Roboto,sans-serif;
     border-radius: 5px;
     cursor: pointer;
-    margin: 15px;
-    font-size: 24px;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    font-size: var(--sm);
     background-color: #FF872C;
 }
 
@@ -23,5 +25,5 @@ button:hover{
 .button-click{
     width: 120px;
     height: 120px;
-    margin: none;
+    margin: 0px;
 }
