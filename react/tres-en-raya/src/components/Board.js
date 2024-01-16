@@ -6,19 +6,20 @@ import { useState } from 'react';
 function Board(){
     const [blocks,setBlocks]=useState(Array(9).fill(null))
     const [gamer,setGamer]=useState("O");
-    const [value,jump]=useState("X")
+
 
     const click = (i) => {
         const blocksTemp=[...blocks];
-        blocksTemp[i]=gamer;
+        
+        if(blocksTemp[i]===null){
+            blocksTemp[i]=gamer;
         setBlocks(blocksTemp);
         
         setGamer(gamer==="X"? "O":"X");
-    }
-
-    const Click = () =>{
-        
-        jump(value==="X"? "O":"X")
+        console.log("pos:",i);
+        console.log("ori",blocks);
+        console.log("temp",blocksTemp);
+        }
     }
 
     return(
