@@ -1,0 +1,26 @@
+:root{
+    --blue:#072F54;
+    --yellow:#FBC108;
+}
+
+button{
+    background-color: var(--blue);
+    color: var(--yellow);
+    font-family: Nunito,sans-serif;
+    font-size: 20px;
+    border: 10px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.add{
+    width: 200px;
+    height: 45px;
+}
+
+.erase{
+    width: 45px;
+    height: 45px;
+}

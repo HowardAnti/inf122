@@ -1,0 +1,10 @@
+:root{
+    --blue:#072F54;
+    --yellow:#FBC108;
+}
+
+li{
+    font-size: 20px;
+    color: var(--blue);
+    font-weight: 500;
+}
