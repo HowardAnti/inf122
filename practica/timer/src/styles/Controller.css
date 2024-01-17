@@ -1,0 +1,31 @@
+:root{
+    --red:#FF3D57;
+    --yellow:#FFCA00;
+    --green:#00D748;
+    --black:#434343;
+}
+
+button{
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+    font-family: Nunito,sans-serif;
+    border-radius: 5px;
+    color: var(--black);
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    margin: 4px;
+}
+
+.start{
+    background-color: var(--green);
+}
+
+.stop{
+    background-color: var(--red);
+}
+
+.reset{
+    background-color: var(--yellow);
+}

@@ -1,0 +1,23 @@
+:root{
+    --gray:#A3ABB2;
+    --blue:#171F26; 
+}
+
+button{
+    width: 300px;
+    height: 90px;
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+    background-color: var(--blue);
+    color: var(--gray);
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 0;
+}
+
+button:hover{
+    background-color: var(--gray);
+    color: var(--blue);
+}

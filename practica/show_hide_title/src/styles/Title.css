@@ -1,0 +1,11 @@
+:root{
+    --gray:#A3ABB2;
+    --blue:#171F26; 
+}
+
+.capital{
+    font-family: Nunito,sans-serif;
+    padding: 20px;
+    font-size: 40px;
+    color: var(--gray);
+}
