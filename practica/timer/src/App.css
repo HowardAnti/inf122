@@ -21,21 +21,3 @@ h1{
   justify-content: center;
 }
 
-.principal-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.controller-container{
-  display: flex;
-  justify-content: center;
-}
-
-.timer{
-  display: flex;
-}
-
-.timer p{
-  font-size: 25px;
-  margin: 5px;
-}
