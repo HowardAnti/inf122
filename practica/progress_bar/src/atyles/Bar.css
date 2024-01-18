@@ -1,0 +1,31 @@
+.principal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-container h2{
+    color: gray;
+    font-size: 20px;
+}
+
+.bar{
+    width: 300px;
+    height: 20px;
+    margin: 16px;
+}
+
+.input{
+    border-radius: 20px;
+     width: 70px;
+    padding: 10px;
+    margin-left: 16px;
+}
+
