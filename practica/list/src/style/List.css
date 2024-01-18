@@ -1,0 +1,30 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputInfo{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  input{
+    text-align: center;
+  }
+
+  ::placeholder{
+    text-align: center;
+  }
+
+  .elements{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .elements li{
+    margin-right: 15px;
+  }

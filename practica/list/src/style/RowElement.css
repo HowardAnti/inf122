@@ -3,6 +3,12 @@
     --yellow:#FBC108;
 }
 
+.rowElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 li{
     font-size: 20px;
     color: var(--blue);
