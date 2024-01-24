@@ -1,0 +1,14 @@
+.table{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-items: center;
+}
+
+.lbutton{
+    height: 30px;
+    width: 120px;
+    margin: 4px;
+    border-radius: 4px;
+    font-family: Nunito,sans-serif;
+}
+

@@ -1,0 +1,24 @@
+
+
+
+
+.App {
+  margin-top: 100px;
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  background-color: white;
+}
+
+.principal-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-k{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  row-gap: 0px;
+}

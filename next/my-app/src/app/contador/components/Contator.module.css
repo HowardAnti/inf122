@@ -1,0 +1,12 @@
+.contator{
+    min-width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray);
+    color: var(--orange);
+    font-size: var(--lg);
+    padding: 25px;
+
+}

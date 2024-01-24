@@ -1,0 +1,22 @@
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: 12px;
+}
+
+.llbutton{
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: Nunito,sans-serif;
+}
