@@ -38,7 +38,9 @@ function Game(){
         
         if(Winner(cuadros)!==null){
             setWinner(Winner(cuadros));
-            setLastturn(turn);
+            if(lastturn===null){
+                setLastturn(turn+1);
+            }
     
         }
         
@@ -53,7 +55,7 @@ function Game(){
             console.log("Movement",l,history[l].cuadros);
             setTurn(l);
             winner!==null? setWinner(null): setWinner(Winner(movement)) ;
-            ((history[l].last==="X"||history[l].last==="O")&&l!==lastturn)? setGamer(history[l].last):setWinner(Winner(history[l].cuadros));
+            l!==lastturn? setGamer(history[l].last):setWinner(Winner(history[l].cuadros));
         }
         else{
             const prevhistory=[{cuadros: Array(9).fill(null),last: ""}];
