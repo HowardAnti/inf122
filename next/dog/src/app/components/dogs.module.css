@@ -4,8 +4,13 @@
     align-items: center;
 }
 
+.box img{
+    border-radius: 50%;
+}
+
 .dogimage{
     border-radius: 15px;
     width: 100px;
     height: 100px;
+    object-fit: cover;
 }

@@ -8,17 +8,20 @@ import style from "./dogs.module.css"
 function Dog(){
 
     const [dog,setDog]=useState("/vercel.svg");
-    const url="https://dog.ceo/api/breed/australian/shepherd/images/random";
+    const [estado,setEstado]=useState("esperando")
+    const [ability,setAbility]=useState("esperando");
+    const url="https://pokeapi.co/api/v2/pokemon/pikachu";
     useEffect(()=>{
         fetch(url)
         .then(res=>res.json())
-        .then(data=>{setDog(data.message)})
+        .then(data=>{setDog(data.sprites.front_default),setEstado(data.species.name),setAbility(data.abilities[1].ability.name)})
     
         },[])
     return(
         <div className={style.box}>
-            <h1>Dogs</h1>
-            <Image src={dog} alt="dog" width={500} height={500}/>
+            <h1>{estado}</h1>
+            <Image src={dog} alt="dog" width={250} height={250}/>
+            <h1>{ability}</h1>
         </div>
     )
 }

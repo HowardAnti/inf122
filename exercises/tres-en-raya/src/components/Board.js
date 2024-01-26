@@ -8,8 +8,10 @@ function Board({game,click}){
       //  <Block text={game[i]} onclick={(i)=>click(i)}/>
     //}
 
+    // {game.map{gam=><block text={gam} onclick={()=>click()}>}}
     return(
         <div className="board">
+            
             <Block text={game[0]} onclick={()=>click(0)}/>
             <Block text={game[1]} onclick={()=>click(1)}/>
             <Block text={game[2]} onclick={()=>click(2)}/>

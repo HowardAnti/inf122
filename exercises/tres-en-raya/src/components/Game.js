@@ -8,7 +8,7 @@ import { useState } from "react";
 
 function Game(){
     
-
+ 
     const[history,setHistory]=useState([
         {cuadros: Array(9).fill(null),last:"X"}
     ]);

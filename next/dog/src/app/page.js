@@ -6,6 +6,11 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Dog/>
+      <Dog/>
+      <Dog/>
+      <Dog/>
+      <Dog/>
+      <Dog/>
     </main>
   );
 }
