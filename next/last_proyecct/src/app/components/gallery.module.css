@@ -1,0 +1,15 @@
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    row-gap: 32px;
+    column-gap: 32px;
+    border-radius: 20px;
+    justify-items: center;
+  }
+
+  @media(max-width:768px){
+    .project-container {
+      grid-template-columns: 1fr;
+    }
+  }

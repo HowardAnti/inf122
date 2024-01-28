@@ -1,0 +1,18 @@
+.facts {
+    display: flex;
+    padding: 20px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+@media(max-width: 768px){
+    .facts {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        gap: 20px;
+    }
+}
